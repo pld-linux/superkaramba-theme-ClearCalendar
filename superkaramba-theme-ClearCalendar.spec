@@ -17,12 +17,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is a "clear" calendar to match the other clear themes. The icon can be
-clicked to open Kontact. Enjoy!
+This is a "clear" calendar to match the other clear themes. The icon
+can be clicked to open Kontact. Enjoy!
 
 %description -l pl
-To jest przezroczysty kalendarz aby dopasowaæ siê do innych przezroczystych
-motywów. Ikona mo¿e byæ klikniêta aby otworzyæ  Kontact. Mi³ej zabawy!
+To jest przezroczysty kalendarz pasuj±cy do innych przezroczystych
+motywów. Ikonê mo¿na klikn±æ, aby otworzyæ Kontact. Mi³ej zabawy!
 
 %prep
 %setup -q -c
