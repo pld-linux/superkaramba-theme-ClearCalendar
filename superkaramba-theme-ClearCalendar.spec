@@ -1,7 +1,7 @@
 %define		theme	ClearCalendar
 
 Summary:	superkaramba - Clear Calendar theme
-Summary(pl.UTF-8):   superkaramba - motyw Clear Calendar
+Summary(pl.UTF-8):	superkaramba - motyw Clear Calendar
 Name:		superkaramba-theme-%{theme}
 Version:	1.0
 Release:	1
