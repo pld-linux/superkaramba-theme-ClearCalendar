@@ -1,7 +1,7 @@
 %define		theme	ClearCalendar
 
 Summary:	superkaramba - Clear Calendar theme
-Summary(pl):	superkaramba - motyw Clear Calendar
+Summary(pl.UTF-8):   superkaramba - motyw Clear Calendar
 Name:		superkaramba-theme-%{theme}
 Version:	1.0
 Release:	1
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a "clear" calendar to match the other clear themes. The icon
 can be clicked to open Kontact. Enjoy!
 
-%description -l pl
-To jest przezroczysty kalendarz pasuj±cy do innych przezroczystych
-motywów. Ikonê mo¿na klikn±æ, aby otworzyæ Kontact. Mi³ej zabawy!
+%description -l pl.UTF-8
+To jest przezroczysty kalendarz pasujÄ…cy do innych przezroczystych
+motywÃ³w. IkonÄ™ moÅ¼na kliknÄ…Ä‡, aby otworzyÄ‡ Kontact. MiÅ‚ej zabawy!
 
 %prep
 %setup -q -c
