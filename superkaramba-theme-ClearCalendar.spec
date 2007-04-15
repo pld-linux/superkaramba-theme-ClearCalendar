@@ -3,13 +3,12 @@
 Summary:	superkaramba - Clear Calendar theme
 Summary(pl.UTF-8):	superkaramba - motyw Clear Calendar
 Name:		superkaramba-theme-%{theme}
-Version:	1.0
+Version:	2.0
 Release:	1
 License:	GPL
 Group:		Themes
-Source0:	http://www.kde-look.org/content/files/20570-clear_cal.tar.gz
-# Source0-md5:	9d570ed78587b6e304406c53ef9821f5
-Patch0:		ubermon.theme.patch
+Source0:	http://www.kde-look.org/CONTENT/content-files/20570-clear_cal.tar.gz
+# Source0-md5:	d8327c3644074f6ada3af81ce5728c60
 URL:		http://www.kde-look.org/content/show.php?content=20570
 Requires:	superkaramba
 Requires:	util-linux
