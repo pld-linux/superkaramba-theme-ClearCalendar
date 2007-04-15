@@ -1,15 +1,14 @@
 %define		theme	ClearCalendar
 
 Summary:	superkaramba - Clear Calendar theme
-Summary(pl.UTF-8):	superkaramba - motyw Clear Calendar
+Summary(pl):	superkaramba - motyw Clear Calendar
 Name:		superkaramba-theme-%{theme}
-Version:	1.0
+Version:	2.0
 Release:	1
 License:	GPL
 Group:		Themes
-Source0:	http://www.kde-look.org/content/files/20570-clear_cal.tar.gz
-# Source0-md5:	9d570ed78587b6e304406c53ef9821f5
-Patch0:		ubermon.theme.patch
+Source0:	http://www.kde-look.org/CONTENT/content-files/20570-clear_cal.tar.gz
+# Source0-md5:	d8327c3644074f6ada3af81ce5728c60
 URL:		http://www.kde-look.org/content/show.php?content=20570
 Requires:	superkaramba
 Requires:	util-linux
@@ -20,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a "clear" calendar to match the other clear themes. The icon
 can be clicked to open Kontact. Enjoy!
 
-%description -l pl.UTF-8
-To jest przezroczysty kalendarz pasujÄ…cy do innych przezroczystych
-motywÃ³w. IkonÄ™ moÅ¼na kliknÄ…Ä‡, aby otworzyÄ‡ Kontact. MiÅ‚ej zabawy!
+%description -l pl
+To jest przezroczysty kalendarz pasuj±cy do innych przezroczystych
+motywów. Ikonê mo¿na klikn±æ, aby otworzyæ Kontact. Mi³ej zabawy!
 
 %prep
 %setup -q -c
